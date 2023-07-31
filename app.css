@@ -4,6 +4,7 @@
     justify-content: left;
     align-items: center;
     color: rgb(184, 167, 167);
+    cursor: default;
     padding: 10px;
     width: 280px;
     border-left: 20px;
