@@ -3,7 +3,7 @@
     vertical-align: middle;
     justify-content: left;
     align-items: center;
-    color: rgb(184, 167, 167);
+    color: rgb(249, 246, 246);
     cursor: default;
     padding: 10px;
     width: 280px;
@@ -16,13 +16,15 @@
 
     border-radius: 20px;
 
+    background-color: black;
+
     position:absolute;
 
-    top: 40%;
+    top: 20%;
 
-    left: 30%;
+    left: 38%;
 
-    transform: translate(-60%, -40%);
+    transform: translate(-2.5%, -10%);
 
     width: 300px;
 
@@ -43,9 +45,11 @@
 }
 
 .button{
-    width: 40px;
-    height: 30px;
+    width: 65px;
+    height: 40px;
     padding: 10px;
+    color: azure;
+    background-color: #6b3c61;
     white-space:break-spaces;
     border-spacing: 3px;
     margin-top: 5px;
@@ -64,23 +68,36 @@
 }
 
 .clear{
-    width: 40px;
-    height: 30px;
+    width: 65px;
+    height: 40px;
     padding: 10px;
     white-space:break-spaces;
-    background-color:  rgb(227, 46, 46)
+    background-color:  rgb(198, 1, 1)
+}
+
+.clear:hover{
+
+    background-color: #cd7d7d;
+
 }
 
 .equal{
 
-    width: 173px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     padding: 10px;
+    margin-left: 25%;
     white-space:break-spaces;
+    color: black;
     background-color:rgb(149, 222, 149);
     border-spacing: 3px;
     margin-top: 5px;
  
   
+
+}
+
+.equal:hover{
+    background-color: rgb(176, 189, 176);
 
 }
