@@ -16,7 +16,7 @@
 
     border-radius: 20px;
 
-    background-color: black;
+    background-color: rgb(8, 0, 0);
 
     position:absolute;
 
@@ -88,7 +88,7 @@
     padding: 10px;
     margin-left: 25%;
     white-space:break-spaces;
-    color: black;
+    color: rgb(8, 0, 0);
     background-color:rgb(149, 222, 149);
     border-spacing: 3px;
     margin-top: 5px;

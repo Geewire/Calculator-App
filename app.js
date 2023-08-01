@@ -1,5 +1,6 @@
 function display(value) {
     document.getElementById("result").value += value;
+
 }
 
 function clearScreen() {
@@ -7,9 +8,9 @@ function clearScreen() {
 }
 
 function solve() {
-    var p = document.getElementById("result").value;
-    var q = eval(p);
-    document.getElementById("result").value = q;
+    var a = document.getElementById("result").value;
+    var b= eval(a);
+    document.getElementById("result").value = b;
 }
 
 
